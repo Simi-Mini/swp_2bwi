@@ -1,3 +1,92 @@
-body {
- background-image: url("MrOlympiaSite_skin.jpg");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("MrOlympia2019Site_skin.jpg");
+    background-size: cover;
+    background-position: fixed;
+    width: auto;
+    height: max-content;
+    padding-left: 15%;
+    font-family: 'BenchNine', sans-serif;
+    }
+
+
+.site{
+
+    background-color: lightgrey;
+    max-width: 1040px;
+    width: 1040px;
+    height: 100%;
+    position: absolute; 
+    margin: 0;
+    }
+
+.logo{
+    height: 40.5vh;
+    padding-top: 50px;
+}
+
+.head{
+    background-image: url("lasvegassign.jpg");
+    position: absolute;
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+}
+.menu{           
+    display: flex;
+    background-color: lightgrey;
+    width: max-content;
+    margin-top: 355px;
+    font-size: 5px;
+    padding-right: 0%;
+}
+.home{
+    display: inline-block;
+    border: none;
+    padding: 11px 7px 8px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1;
+    color: #d22d31;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.links-list {
+    position: absolute;
+    display: flex;
+    width: 140px;
+    height: 100%;
+    margin: 2px;
+    padding-top: 1px;
+    right: 0rem;
+}
+li {
+    width: 30px;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+
+.hidden {
+        display: none;
+      }
+
+.facebookhover:hover {
+    fill: #3c5a99;
+}
+
+.twitterhover:hover{
+    fill: #1c9ceb;
+}
+.instagramhover:hover{
+    fill: #d12d32;
+}
+.home:hover{
+    background-color: white;
 }
