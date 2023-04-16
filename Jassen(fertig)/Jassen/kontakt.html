@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="kontakt.css" >
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@1,300&family=Source+Sans+Pro:wght@400;700&display=swap');
+      </style>
+    
+</head>
+<body>
+        <nav>
+            <a href="index.html">Start</a>
+            <a href="info.html">Über Uns</a>
+            <a href="kontakt.html" class="active">Kontakt</a>
+            <a href="geschichte.html">Geschichte</a>
+            <a href="https://www.jassa.at/regeln/">Regeln</a>
+        </nav>
+    <div class="text">
+        <p class="welcome">Wilkommen beim Spieler-Support von Jassen</p>
+        <p>Falls Sie sonst noch irgendwelche Fragen haben, richten Sie sich bitte an unser Support (Antwort dauer: 1-3 Tage)</p>
+    </div>
+<div class="contact">
+    <form id="contact-form" method="post">
+        <div>
+          <label for="gender">Geschlecht:</label>
+          <input type="radio" name="gender" value="Herr"> Herr
+          <input type="radio" name="gender" value="Frau"> Frau
+        </div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" required>
+        </div>
+        <div>
+          <label>E-Mail-Adresse:</label>
+          <input type="email" name="email" required>
+        </div>
+        <div>
+          <label>Nachricht:</label>
+          <textarea name="message" required></textarea>
+        </div>
+        <button type="submit" id="submit-button">Absenden</button>
+    </form>
+</div>
+    <div class="navbar2">
+        <a href="https://www.instagram.com/noah_stesl/"><img src="87390.png" class="insta"></a>
+    </div>
+<script src="kontakt.js"></script>
+</body>
+</html>

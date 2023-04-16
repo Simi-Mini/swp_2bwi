@@ -1,0 +1,114 @@
+body {
+margin: 0;
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 0;
+ font-family: 'Lato', sans-serif;
+ font-family: 'Open Sans', sans-serif;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+.logobar{
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: white;
+    background-image: url("schweizerjass\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+.jassalogoOB{
+    width: 35%;
+    opacity: 0;
+}
+.nav{
+    display: flex;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+.nav a {
+    display: flex;
+    flex: 1;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+    transition: all 0.4s;
+    border-color: white;
+  }
+  
+  .nav a:hover {
+    background-color: #433934;
+    color: white;
+  }
+
+.Partner{
+  background-image: url("wood\ dark2.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
+.banner{
+  background-image: url("wood\ dark2.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#mlogo{
+  width:25%;
+}
+#plogo{
+  width: 20%;
+}
+#mllogo{
+  width: 20%;
+}
+
+@media screen and (max-width: 1080px) {
+body{
+  background-image: url("wood\ dark3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .logobar{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 40vh;
+  width: 100%;
+  background-image: url("schweizerjass\ \(2\).png");
+  background-position-y: left;
+ }
+ .nav{
+  background-color: none;
+ }
+ .Partner{
+  background-image: none;
+ }
+ .banner{
+  background-image: none;
+  display: inline;
+ }
+#plogo{
+  width: 40vh;
+}
+#mlogo{
+  width: 40vh;
+}
+#mllogo{
+  width: 40vh;
+}
+}

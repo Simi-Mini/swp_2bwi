@@ -1,0 +1,163 @@
+body{
+    background-image: url(brown-wood-textured-background-with-design-space_53876-160414.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f2f2f2;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .text {
+    text-align: center;
+  }
+  nav {
+    top:0;
+    left: 0;
+    display: flex;
+    background-color: #462a1b;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+  }
+  
+  nav a {
+    color:#f2f2f2;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+  }
+  nav a:hover {
+    color: #916b57;
+    cursor: pointer;
+    transition: all 0.4s;
+  
+  }
+  .welcome {
+      padding-top: 30px;
+      font-size: 40px;
+      color: #f2f2f2;
+  }
+  
+  .active {
+      background-color: #835942;
+    }
+  
+  .active:hover {
+    color: #462a1b;
+  }
+.intro {
+    padding-top: 30px;
+    font-size: 40px;
+    color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+}
+.simon-img {
+    height: 325px;
+    width: 255px;
+    float: left;
+    margin: 0px 50px 0px 290px;
+}
+
+.s-name{
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+.s-text {
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+.noah-img {
+    float: left;
+    margin: 0px 50px 0px 300px;
+    /* padding-left: 17px; */
+    padding-left: 1%;
+    padding-top: 50px;
+    
+}
+
+.n-name{
+    padding-top: 50px;
+    /* padding-left: 610px; */
+    padding-left: 45%;
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+.n-text {
+    font-size: 20px;
+    color: #f2f2f2;
+    padding-left: 35%;
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+      background-image: url(brown-wood-textured-background-with-design-space_53876-160414.avif);
+      background-repeat: repeat;
+      background-size: cover;
+    }
+    .welcome {
+      padding-top: 40px;
+      font-size: 20px;
+      color: #f2f2f2;
+  }
+  nav {
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: #462a1b;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+  }
+  
+  nav a {
+    color:#f2f2f2;
+    display: flex;
+    flex: 1;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .simon-img {
+    height: 325px;
+    width: 255px;
+    float: left;
+    margin-left: 0%;
+}
+
+.noah-img {
+    float: left;
+    margin: 0px 10% 0px 0px;
+    padding-top: 50px;
+    
+}
+
+.n-name{
+    padding: 50px 0px 0px 310px;
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+.n-text {
+    font-size: 20px;
+    color: #f2f2f2;
+    padding: 50px 0px 0px 310px;
+}
+  }
+
