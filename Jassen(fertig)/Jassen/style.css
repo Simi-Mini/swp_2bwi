@@ -13,7 +13,7 @@ margin: 0;
 .logobar{
     width: 100%;
     position: relative;
-    height: auto;
+    height: 633px;
     background-color: white;
     background-image: url("schweizerjass\ \(1\).png");
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ margin: 0;
 .nav{
     display: flex;
     height: 80px;
-    background-color: white;
+    background-color: #5E351B;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
   }
 .nav a {
@@ -40,7 +40,7 @@ margin: 0;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    color: black;
+    color: white;
     transition: all 0.4s;
     border-color: white;
   }
@@ -82,6 +82,9 @@ body{
   background-image: url("wood\ dark3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 390px;
+  width: max-content;
+
 }
  .logobar{
   display: flex;
